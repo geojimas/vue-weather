@@ -1,4 +1,4 @@
-# vue3-weather
+# Weather application with VueJS
 
 ## Project setup
 ```
