@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :class="bg ? '' : 'warm'">
+  <div id="app" :class="bg ? '' : 'cold'">
     <main class="animate__animated animate__zoomIn">
       <div class="search-box">
         <input
@@ -60,7 +60,7 @@ export default {
     const weather = ref([])
     const date = moment().format('MMMM Do YYYY, h:mm:ss a')
     const loading = ref(false)
-    const bg = ref(false)
+    const bg = ref(true)
 
     // fetch Method
     const fetchWeather = () => {

@@ -7,14 +7,14 @@
 }
 
 #app {
-  background-image: url('../assets/cold.jpg');
+  background-image: url('../assets/warm.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4;
 }
 
-#app.warm {
-  background-image: url('../assets/warm.jpg');
+#app.cold {
+  background-image: url('../assets/cold.jpg');
 }
 
 main {
